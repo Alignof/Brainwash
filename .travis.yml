@@ -1,8 +1,9 @@
 language: cpp
 
 compiler:
+        - clang++
         - g++
 
 script:
   - g++ --version
-  - g++ -g -O0 -o Brainwash Brainwash.cpp && ./Brainwash
+  - g++ -g -O0 -o Brainwash Brainwash.cpp && ./Brainwash -h
