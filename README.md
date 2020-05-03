@@ -1,4 +1,5 @@
 # Brainwash
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Brainwash is the Brainfuck interpreter and visualizer.
 
 # install
@@ -29,4 +30,5 @@ Brainwash stepping every 100ms.
 # Auther
 Takana Norimasa  
 Twitter:[lIlIIllIIIlIlIl](https://twitter.com/lIlIIllIIIlIlIl)  
+homepage:[https://takana-norimasa.github.io/blog/](https://takana-norimasa.github.io/blog/)  
 
