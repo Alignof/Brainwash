@@ -11,6 +11,9 @@ clean:
 	rm -f *.o Brainwash
 
 test: Brainwash
+	./Brainwash -h
+
+demo: Brainwash
 	./Brainwash example.bf
 
-.PHONY: test clean install
+.PHONY: demo test clean install
