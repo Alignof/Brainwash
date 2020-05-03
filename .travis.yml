@@ -1,0 +1,8 @@
+language: cpp
+
+compiler:
+        - gcc
+
+script:
+  - g++ --version
+  - g++ -g -O0 -o Brainwash Brainwash.cpp && ./Brainwash
