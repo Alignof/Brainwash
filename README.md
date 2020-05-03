@@ -1,6 +1,5 @@
 # Brainwash
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- [![CircleCI](https://circleci.com/gh/Takana-Norimasa/Brainwash.svg?style=svg)](https://circleci.com/gh/Takana-Norimasa/Brainwash)
  [![Build Status](https://travis-ci.org/Takana-Norimasa/Brainwash.svg?branch=master)](https://travis-ci.org/Takana-Norimasa/Brainwash)    
 Brainwash is the Brainfuck interpreter and visualizer.  
 
