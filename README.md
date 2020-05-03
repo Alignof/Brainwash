@@ -4,17 +4,19 @@
 Brainwash is the Brainfuck interpreter and visualizer.  
 
 # install
-Brainwash needs a gnu g++.
+Brainwash require a gnu g++ or clang.
 
 ```terminal
 $ make install
 ```
 
 # usage
+```terminal
 Usage: ./Brainwash -(h|n|s=) terget_file  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--help(-h) :show help  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--no-visualize(-n) :only print result  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--speed=(-s=) :demo speed[ms]  
+	--help(-h) :show help  
+	--no-visualize(-n) :only print result  
+	--speed=(-s=) :demo speed[ms]  
+```
 
 ## example
 ```terminal
@@ -28,8 +30,8 @@ $ ./Brainwash -s=100 terget_file
 Brainwash stepping every 100ms.
 
 
-# Auther
+# Author
 Takana Norimasa  
-Twitter:[lIlIIllIIIlIlIl](https://twitter.com/lIlIIllIIIlIlIl)  
+Twitter:[@lIlIIllIIIlIlIl](https://twitter.com/lIlIIllIIIlIlIl)  
 homepage:[https://takana-norimasa.github.io/blog/](https://takana-norimasa.github.io/blog/)  
 
