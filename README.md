@@ -12,7 +12,7 @@ $ make install
 
 # usage
 ```terminal
-Usage: ./Brainwash -(h|n|s=) terget_file  
+$ ./Brainwash -(h|n|s=) terget_file  
 	--help(-h) :show help  
 	--no-visualize(-n) :only print result  
 	--speed=(-s=) :demo speed[ms]  

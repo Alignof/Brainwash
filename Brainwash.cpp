@@ -144,12 +144,6 @@ void processor(std::string code){
 	head=memory;
 
 	while(index<size){
-		//visualize
-		if(!no_visualize){
-			display_array(memory,output);
-			display_code(code,index,output);
-		}
-
 		switch(code[index]){
 			case '>':
 				within_range(++memory);
@@ -184,6 +178,13 @@ void processor(std::string code){
 				index++;
 				continue;
 		}
+
+		//visualize
+		if(!no_visualize){
+			display_array(memory,output);
+			display_code(code,index,output);
+		}
+
 		index++;
 
 		if(!no_visualize)
