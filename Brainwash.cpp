@@ -132,6 +132,7 @@ void display_array(uint8_t *memory,char *output){
 
 void processor(std::string code){
 	char output[100000];
+	int nest=0;
 	int index=0;
 	int len_out=0;
 	int size=code.size();
@@ -167,12 +168,24 @@ void processor(std::string code){
 				std::cin >> *memory;
 				break;
 			case '[':
-				if(*memory==0)
-					while(code[index]!=']') index++;
+				nest=1;
+				if(*memory==0){
+					while(code[index]!=']' || nest!=0){
+						index++;
+						if(code[index]=='[') nest++;
+						if(code[index]==']') nest--;
+					}
+				}
 				break;
 			case ']':
-				if(*memory!=0)
-					while(code[index]!='[') index--;
+				nest=1;
+				if(*memory!=0){
+					while(code[index]!='[' || nest!=0){
+						index--;
+						if(code[index]=='[') nest--;
+						if(code[index]==']') nest++;
+					}
+				}
 				break;
 			default:
 				index++;
