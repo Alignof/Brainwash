@@ -32,6 +32,6 @@ Brainwash stepping every 100ms.
 
 # Author
 Takana Norimasa  
-Twitter:[@lIlIIllIIIlIlIl](https://twitter.com/lIlIIllIIIlIlIl)  
+Twitter:[@303_See_0ther](https://twitter.com/303_See_0ther)
 homepage:[https://takana-norimasa.github.io/blog/](https://takana-norimasa.github.io/blog/)  
 
