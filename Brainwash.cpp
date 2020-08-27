@@ -230,7 +230,7 @@ int main(int argc,char *argv[]){
 			printf("	--help(-h) :show this help\n");
 			printf("	--no-visualize(-n) :only print result\n");
 			printf("	--speed=(-s=) :run speed[ms]\n\n");
-			printf("Auter:Takana Norimasa \n");
+			printf("Author:Takana Norimasa \n");
 			printf("Repository:https://github.com/Takana-Norimasa/Brainwash \n");
 			return 0;
 		}
